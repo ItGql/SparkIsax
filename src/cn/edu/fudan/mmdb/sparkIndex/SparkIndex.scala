@@ -32,11 +32,14 @@ object SparkIndex {
     //parameters settings
 
     val offset = 0
-    val tslen = 364
+    //the length of timeseries which can be reset
+    val tslen = 364  
+    //segmentations on the x axis
     val word_length = 14
     //cardinality of the first level
     val base_card = 4
     val level = args(2).toInt
+    //the split threshold 
     val k =50
     //caradinality sequence for every level in the isax tree
     val init_cardsPerlevel = initCard(word_length, base_card, level)
