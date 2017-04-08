@@ -1,7 +1,7 @@
 # SparkIsax
 the fastest distributed algorithm for building the timeseries index
 
-following are  a brief installation guide.  I will provide my papers in another url the next time with algorithm description and replace this with a detailed installation instructions.
+following are  a brief installation guide.  I will provide my papers in another url the next time with algorithm description and replace this with a detailed installation instructions. My main idea is included in sparkindex/sparkIndex.scala。
 ## prerequisite
 
 
